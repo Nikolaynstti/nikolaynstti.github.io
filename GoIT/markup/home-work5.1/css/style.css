@@ -1,0 +1,38 @@
+body{
+	background-color: #DCDCDC;
+}
+.page{
+	margin: 50 auto;
+	width: 700px;
+	height: 750px;
+	background-color: white;
+}
+tr,
+td{
+	border: 10px solid #000;
+	width: 70px;
+	height: 62px;		
+}
+
+table{
+		margin: auto;
+		width: 100%;
+		display: inline-block;
+}
+
+ .yellow{
+ 	background-color: yellow;
+ }
+
+ .pink{
+ 	background-color: #ff4f2c;
+ }
+
+ .black{
+ 	background-color: rgba(0, 0, 0, 0.9);
+ }
+
+ .blue{
+background-color: #0e499a;
+ }
+
