@@ -1,0 +1,396 @@
+.wrapper{
+  margin: 0 auto;
+  width: 908px;
+  height: 1210px;
+  padding: 50;
+
+}
+/*header*/
+header{
+width: 900px;
+height: 278px;
+}
+.header-zero{
+  width: 900px;
+  height: 27px;
+}
+.contacts{
+  font-family: 'arial' serif;
+  font-size: 18px;
+  color: #5e696d;
+  position: relative;
+  margin-top: -4px;
+  float: left;
+}
+
+.contacts a{
+}
+.gate{
+  padding: 0 2 2 0px;
+  margin-left: 30px;
+  height: 25px;
+  width: 489px;
+  float: left;
+  display: block;
+  border-radius:  5px;
+  -webkit-box-shadow: 5px 5px 8px -1px rgba(193,193,193,1);
+-moz-box-shadow: 5px 5px 8px -1px rgba(193,193,193,1);
+box-shadow: 5px 5px 8px -1px rgba(193,193,193,1);
+  background-color: background-image: -ms-linear-gradient(top, #1E6383 0%, #0E375B 100%);
+background-image: -moz-linear-gradient(top, #1E6383 0%, #0E375B 100%);
+background-image: -o-linear-gradient(top, #1E6383 0%, #0E375B 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1E6383), color-stop(100, #0E375B));
+background-image: -webkit-linear-gradient(top, #1E6383 0%, #0E375B 100%);
+background-image: linear-gradient(to bottom, #1E6383 0%, #0E375B 100%);
+ } 
+
+ .face-png{
+  padding: 0 3 0 5px;
+ }
+
+ .login{
+  width: 112px;
+ }
+
+ .password{
+  width: 112px;
+ }
+
+.entrance {
+color: #fff;
+text-decoration: none;
+font-size: 12px;
+ }
+
+.entrance:hover{
+text-decoration: underline;
+ }
+
+ table a{
+color: #bfbfbf;
+padding-left: 15px;
+ }
+
+table a:hover{
+text-decoration: none;
+ }
+
+.small-buttons{
+  height: 21px;
+  width: 75px;
+  border: 1px solid #d3d8da;
+  border-radius: 25px;
+  position: relative;
+  float: right;
+  padding: 0 0 0 0px;
+  text-align: center;
+  }
+
+   .main-logo img{
+    margin: 0 auto;
+    margin-top: 9px;
+    position: relative;
+  }
+
+/*Menu*/
+nav{
+  position: static;
+  width: 100%;
+  height: 41px;
+  display: inline-block;
+  color: white;
+  float: right;
+  border-radius: 6px;
+  -webkit-box-shadow: 7px 6px 18px -2px rgba(132,132,132,1);
+-moz-box-shadow: 7px 6px 18px -2px rgba(132,132,132,1);
+box-shadow: 7px 6px 18px -2px rgba(132,132,132,1);
+background: background-image: -ms-linear-gradient(top, #4D5663 0%, #030303 100%);
+background-image: -moz-linear-gradient(top, #4D5663 0%, #030303 100%);
+background-image: -o-linear-gradient(top, #4D5663 0%, #030303 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4D5663), color-stop(100, #030303));
+background-image: -webkit-linear-gradient(top, #4D5663 0%, #030303 100%);
+background-image: linear-gradient(to bottom, #4D5663 0%, #030303 100%);
+ }
+
+nav ul li{
+  float: left;
+  font-size: 13px;
+  font-family: tahoma arial, sans-serif;
+  font-weight: bold;
+    
+ }
+nav ul li a{
+    display: block; 
+    padding: 4px 15px; 
+    color: #fff;
+    text-decoration: none;
+    line-height: 28px;
+    border-radius: 82px ;
+}
+nav ul li a:hover{
+  background: 
+  background-image: -ms-linear-gradient(top, #1F6787 0%, #0D3458 100%);
+  background-image: -moz-linear-gradient(top, #1F6787 0%, #0D3458 100%);
+  background-image: -o-linear-gradient(top, #1F6787 0%, #0D3458 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1F6787), color-stop(100, #0D3458));
+  background-image: -webkit-linear-gradient(top, #1F6787 0%, #0D3458 100%);
+  background-image: linear-gradient(to bottom, #1F6787 0%, #0D3458 100%);;
+  color: #ebf2f9;
+}
+
+.price{
+float: right;
+line-height: 40px;
+font-family: 'arial' sans-serif;
+font-size: 11px;
+color: #868e92;
+padding: 0 17px 0 24px;
+background: url(../img/basket.png) 0px 10px no-repeat;
+}
+
+.price p{
+display: inline-block;
+padding: 0 3px;
+}
+
+.money{
+  font-family: 'arial' sans-serif;
+  font-size: 12px;
+  color: #0d5a8f;
+}
+
+/*CENTER EMPTY*/
+.empty{
+width: 100%;
+height: 200px;
+position: relative;
+top :50px;
+}
+
+.empty:before,
+
+.empty:after {
+
+   content: " ";
+   display: table;
+}
+.empty:after {
+  clear: both;
+}
+.empty {
+   zoom: 1;
+}
+
+/*MAIN INFO LEFT*/
+
+.left{
+  width: 193px;
+  height: 400px;
+  float: left;
+}
+.catalogues{
+  width: 143px;
+  height: 30px;
+  padding: 0 17px 0 24px;
+  background: url(../img/mark1.png) 0px 0px no-repeat;
+  border: 2px solid #8b979c;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 6px 6px 13px -1px rgba(191,191,191,1);
+-moz-box-shadow: 6px 6px 13px -1px rgba(191,191,191,1);
+box-shadow: 6px 6px 13px -1px rgba(191,191,191,1); 
+}
+.catalogues p{
+  line-height: 32px;
+  padding: 0 0 0 8px;
+  font-family: 'arial' sans-serif;
+  font-size: 12px;
+  color: #114165;
+}
+
+.subcatalogues{
+   width: 120px;
+  height: 30px;
+  padding: 0 17px 0 24px;
+  background: url(../img/mark2.png) 0px 0px no-repeat;
+  border: 2px solid #8b979c;
+  border-radius: 20px;
+}
+.subcatalogues p{
+  line-height: 32px;
+  padding: 0 0 0 8px;
+  font-family: 'arial' sans-serif;
+  font-size: 12px;
+  color: #114165;
+}
+
+.list{
+  padding-left: 18px;
+  line-height: 22px;
+}
+
+.list a{
+margin-right: 50px; 
+text-decoration: none;
+font-family: 'arial' sans-serif;
+font-size: 12px;
+color: #465961;
+}
+
+.list a:hover{
+  font-size: 14px;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  color: #114165;
+}
+
+/*MAIN INFO CENTER*/
+ .center{
+  width: 526px;
+  height: 625px;
+  float: left;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-image: -ms-linear-gradient(top, #E4E7E8 0%, #94A7B1 100%);
+background-image: -moz-linear-gradient(top, #E4E7E8 0%, #94A7B1 100%);
+background-image: -o-linear-gradient(top, #E4E7E8 0%, #94A7B1 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E4E7E8), color-stop(100, #94A7B1));
+background-image: -webkit-linear-gradient(top, #E4E7E8 0%, #94A7B1 100%);
+background-image: linear-gradient(to bottom, #E4E7E8 0%, #94A7B1 100%);
+/*MAIN INFO RIGHT*/
+}
+
+.right{
+  width: 183px;
+  height: 300px;
+  float: right;
+}
+
+.list2{
+  margin-top: 5px;
+  margin-left: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  font-family: 'arial' sans-serif;
+  font-size: 12px;
+  color: #465961;
+}
+
+.choose-button{
+  font-family: 'arial' sans-serif;
+  font-size: 11px;
+  height: 25px;
+  width: 80px;
+  border-radius: 15px;
+  border: 5px;
+  margin-top: 7px;
+  color: white;
+  background-color: 
+background-image: -ms-linear-gradient(top, #1D6081 0%, #0D3458 100%);
+background-image: -moz-linear-gradient(top, #1D6081 0%, #0D3458 100%);
+background-image: -o-linear-gradient(top, #1D6081 0%, #0D3458 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1D6081), color-stop(100, #0D3458));
+background-image: -webkit-linear-gradient(top, #1D6081 0%, #0D3458 100%);
+background-image: linear-gradient(to bottom, #1D6081 0%, #0D3458 100%);
+}
+
+.clearfix{
+  display: block;
+  position: relative;
+}
+
+/*FOOTER*/
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 908px;
+  height: 100px;
+  background-color: #213a4d;
+}
+
+.sub-footer {
+  width: 675px;
+  height: 25px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.footer-menu{
+  width: 100%;
+  display: inline-block;
+  float: left;
+  position: relative; 
+}
+.footer-menu ul{
+  text-align: center;
+}
+
+.footer-menu ul li{
+  float: left;
+
+}
+.footer-menu ul li a{
+  display: block; 
+  padding: 2px 11px; 
+  text-decoration: none;
+  line-height: 35px;
+  font-family: 'arial' sans-serif;
+  font-size: 12px;
+  color: #bec6c9;
+  border-right: 1px solid #bec6c9 ;
+  padding: 0 17px 0 20px;
+}
+
+.footer-menu a:hover{
+   color: #4792af;
+}
+.rights{
+  color: #7f4740;
+  font-family: 'arial' sans-serif ;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+/*----------------------------------*/
+ figure {
+    background: #ffffff; 
+    padding: 5px; 
+    display: block; 
+    width: 130px;
+    height: 120px; 
+    float: left; 
+    margin: 47 0px 0px 30; 
+    text-align: center; 
+    border-radius: 10px;
+    border: 1px solid #a7b1b4;
+   }
+
+  figcaption {
+    color: #114165;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'arial' sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+   }
+
+   .names3-3,
+   .names3-2,
+   .names3-1,
+   .names2-3,
+   .names2-2,
+   .names2-1,
+   .names1-3,
+   .names1-2,
+   .names1-1{
+    width: 164px;
+    height: 203px;
+    position: relative;
+    float: left;
+   }
+
+   max height max width

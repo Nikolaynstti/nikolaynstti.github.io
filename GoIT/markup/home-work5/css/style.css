@@ -1,9 +1,7 @@
-body{
 
-height: 1010px;
-}
 
 .page{
+	margin: 0 auto;
 	width: 1200px;
 	height: 1010px;
 	font-family: Tahoma ,Arial serif;
