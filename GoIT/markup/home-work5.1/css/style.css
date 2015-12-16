@@ -9,30 +9,30 @@ body{
 }
 tr,
 td{
-	border: 10px solid #000;
+	border: 4px solid #000;
 	width: 70px;
 	height: 62px;		
 }
 
 table{
-		margin: auto;
-		width: 100%;
-		display: inline-block;
+	margin: auto;
+	width: 100%;
+	display: inline-block;
 }
 
- .yellow{
+.yellow{
  	background-color: yellow;
- }
+}
 
- .pink{
+.pink{
  	background-color: #ff4f2c;
- }
+}
 
- .black{
+.black{
  	background-color: rgba(0, 0, 0, 0.9);
- }
+}
 
- .blue{
+.blue{
 background-color: #0e499a;
- }
+}
 

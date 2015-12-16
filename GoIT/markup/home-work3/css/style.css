@@ -3,7 +3,6 @@ body{
   height: 950px;
   width: 1350px;
 	background-color:  #f9f9f9;
-  overflow: hidden;
 }
 
 #page{
@@ -72,8 +71,8 @@ body{
  background-image: -webkit-linear-gradient(top, #494949 0%, #2F2F2F 100%);
  background-image: linear-gradient(to bottom, #494949 0%, #2F2F2F 100%);
  text-decoration: none;
-  height: 50px;
-  width: 20px;
+  height: 40px;
+  width: 50px;
   border-right: 1px solid #838383;
   border-left: 1px solid #838383;
 }
@@ -89,11 +88,8 @@ body{
 /* Sidebar menu*/
 
 .sidebar{
-   width: 240px;
-   height: 200px;
    position: relative;
    float: left;
-   clear: both;
    margin:0 auto;
    top: 40px;
    left: 40px;
@@ -111,7 +107,7 @@ body{
  .sidebar  ul li {
     border: 1px solid #c8c8c8;
     height: 40px;
-    width: 210px;
+    width: 227px;
  }
 
  .sidebar ul li a {
@@ -123,10 +119,11 @@ body{
  }
 
   .sidebar ul li a:hover {
+    font-weight: bold;
     text-decoration: none;
     color: black;
     background-color: #f9f9f9;
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 /*Center*/

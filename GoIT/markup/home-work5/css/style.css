@@ -1,5 +1,4 @@
 
-
 .page{
 	margin: 0 auto;
 	width: 1200px;
@@ -33,12 +32,12 @@
 }
 .flag{
 	margin: 2px;
-	height: 31px;
+	height: 36px;
 	float: right;
 	width: 140px;
 	text-align: right;
 	padding: 0 17px 0 20px;
-	background: url(../img/flag.png) 35px 7px no-repeat;
+	background: url(../img/flag.png) 35px 6px no-repeat;
 	border-left: 1px solid #56a2dc;
 	line-height: 35px;
 
@@ -50,7 +49,6 @@
 .flag a:hover{
 	text-decoration: underline;
 }
-
 .menu{
 	
 	position: relative;
@@ -67,7 +65,7 @@
   	padding: 2px 10px; 
   	color: #4f9dd6;
   	text-decoration: none;
-  	line-height: 35px;
+  	line-height: 37px;
 }
 .menu ul li a:hover{
 	background: #4eabda;
@@ -80,7 +78,7 @@
 	height: 66px;
 	width: 550px;
 	left: 50%;
-	top: 23%;
+	top: 236px;
 	margin-top: -33px;
 	margin-left: -275px;
 	background-color: rgba(0, 0, 0, 0.6);
@@ -89,7 +87,7 @@
 .fixed-menu1 p{
 	text-align: center;
 	color: white;
-	line-height: 60px;
+	line-height: 66px;
 	font-size: 24px;
 	font-weight: lighter;
 }
@@ -101,57 +99,40 @@
 	top: 50%;
 	margin-top: -267px;
 	margin-left: -275px;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.65);
 }
 
-.button1 {
-	background-color:#314a83;
-	position:relative;
-	padding:10px 20px;
-	border-left:solid 1px #2ab7ec;
-	left:70px;
-	margin-top: 30px;
-	border-radius: 5px;
-	text-align: center;
- }
-	
-.button1 a{
-	font-family: 'Tahoma', sans-serif;
-	font-size:12px;
-	text-decoration:none;
-	color:#fff;
-}
-
-.button1:active{
-	top:3px;
-	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
-}
-
-.button1::before {
+.fb-button::before {
 	content:" ";
-	width:35px;
-	max-height:25px;
-	height:100%;
-	position:absolute;
-	display:block;
-	padding-top:8px;
-	top:0px;
-	left:-36px;
-	color:#8fd1ea;
-	border-right:solid 1px #07526e;
-	background-image:url(../img/55.png);
-	background-repeat: no-repeat;
-	background-color:#314a83; 
-	border-radius: 5px;
+	position:relative;
 }
+.fb-button{
+	display: block;	
+	position: relative;
+}
+
+img{
+	margin-top: 32px;
+}
+.fb-button a:hover{
+	padding: -5px;
+}
+
 .fixed-menu2-inner{
 	width: 275px;
 	height: 500px;
 	margin: 0 auto;
 }
 
-.container-row{
-	margin-top: 30px;
+.ou-row{
+    margin-top: 20px;
+    position: relative;
+}
+.ou-row-inner{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    color: #999999;
 }
 
 .row{
@@ -166,6 +147,10 @@
 	top: -0.6em;
 	font-family: 'Tahoma', sans-serif;
 	font-size:14px;
+}
+.input{
+	position: relative;
+	display: block;
 }
 input[type="text"]{
 	margin-top: 18px;
@@ -230,3 +215,5 @@ line-height: 20px;
 	left: 94px;
 	line-height: 1.5;
 }
+
+
