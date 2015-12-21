@@ -21,7 +21,12 @@
  	margin-right: 20px;
  	text-align: center;
  	width: 190px;
- 	background-image: url(../img/back1.png);	
+ 	background: background-image: -ms-linear-gradient(top, #51B1DC 0%, #2E7AC4 100%);
+background-image: -moz-linear-gradient(top, #51B1DC 0%, #2E7AC4 100%);
+background-image: -o-linear-gradient(top, #51B1DC 0%, #2E7AC4 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #51B1DC), color-stop(100, #2E7AC4));
+background-image: -webkit-linear-gradient(top, #51B1DC 0%, #2E7AC4 100%);
+background-image: linear-gradient(to bottom, #51B1DC 0%, #2E7AC4 100%);	
 } 	
  .ola a{
  	color: white;
@@ -65,7 +70,7 @@
   	padding: 2px 10px; 
   	color: #4f9dd6;
   	text-decoration: none;
-  	line-height: 37px;
+  	line-height: 36px;
 }
 .menu ul li a:hover{
 	background: #4eabda;
