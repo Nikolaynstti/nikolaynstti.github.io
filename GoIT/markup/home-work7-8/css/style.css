@@ -776,7 +776,7 @@ background-image: linear-gradient(to bottom, rgba(136,136,136,1) 0%, rgba(70,70,
 }
 
 .first-menu-wrapper{
-	position: fixed;
+	
 	top: 320px;
 	right: 450px;
 }
